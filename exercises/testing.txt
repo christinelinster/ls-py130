@@ -1,0 +1,9 @@
+1. self.assertTrue(value % 2 !=0, "value is not odd")
+2. self.assertEqual('xyz', value.lower())
+3. self.assertIsNone(value)
+4. self.assertIn('xyz', lst)
+5. self.assertNotIn('xyz', lst)
+6. with self.assertRaises(NoExperienceError):
+        employee.hire()
+7. self.assertIsInstance(value, Numeric)
+8. self.assertIs(lst, lst.process())
